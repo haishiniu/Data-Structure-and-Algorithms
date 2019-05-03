@@ -30,7 +30,7 @@ def _partition(a, low, high):
             j += 1
             a[j], a[i] = a[i], a[j]
             print a
-    a[low], a[j] = a[j], a[low] 
+    a[low], a[j] = a[j], a[low]
 
     return j
 
